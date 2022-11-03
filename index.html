@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/comment.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 16</title>
+</head>
+<body>
+	<div class="wrapper">
+      <header class="header">
+		   <div class="header__container"><!--flex-block--->
+            <a href="" class="header__logo">
+				   <img src="img/image/logo.svg" alt="logo">
+			   </a>
+			   <nav class="header__menu menu"><!--Flex-->
+				   <ul class="menu__list"><!--Flex-->
+					   <li class="menu__item">
+						   <a href="" class="menu__link">About Us</a>
+					   </li>
+					   <li class="menu__item">
+						   <a href="" class="menu__link">Courses</a>
+					   </li>
+					   <li class="menu__item">
+						   <a href="" class="menu__link">Events</a>
+					   </li>
+					   <li class="menu__item">
+						   <a href="" class="menu__link">Blog</a>
+					   </li>
+					   <li class="menu__item">
+						   <a href="" class="menu__link">Contacts</a>
+					   </li>
+				   </ul>
+			   </nav>
+			   <div class="header__actions actions-header">
+				   <div class="actions__header">
+					   <a href="" class="actions-header__button button"><span>Get consultation</span></a>
+		      	   <a href="" class="actions-header__auth">Log in / Register</a>
+				   </div>
+			   </div>
+		   </div>
+	   </header>
+	   <main class="page">
+			<section class="page__contact-form contact-form__block">
+				<div class="contact-form__container">
+					<div class="contact-form__media">
+						<img class="contact-form__image" src="img/image/illustration_contact-form.svg" alt="illustration">
+					</div>
+					<div class="contact-form__content">
+						<div class="block__title">
+							<p class="title__text">Any questions?</p>
+							<h2 class="title__main">Drop us a line</h2>
+						</div>
+						<form class="contact-form__form form-contact" action="#">
+                     <div class="form-contact__line">
+								<label class="form-contact__label" for="first-name" >First Name*</label>
+								<input id="first-name" required autocomplete="off" placeholder="Your first name" type="text" name="first-name" class="form-contact__input">
+							</div>
+							<div class="form-contact__line">
+								<label class="form-contact__label" for="last-name" >Last  Name*</label>
+								<input id="last-name" required autocomplete="off" placeholder="Your last name" type="text" name="last-name" class="form-contact__input">
+							</div>
+							<div class="form-contact__line">
+								<label class="form-contact__label" for="email" >Email*</label>
+								<input id="email" required autocomplete="off" placeholder="Your working email" type="email" name="email" class="form-contact__input">
+							</div>
+							<div class="form-contact__line">
+								<label class="form-contact__label" for="phone" >Phone</label>
+								<input id="phone" required autocomplete="off" placeholder="Your phone number" type="tel" name="phone" class="form-contact__input">
+							</div>
+							<div class="form-contact__line">
+								<label class="form-contact__label" for="message" >Message*</label>
+								<textarea id="message" name="message" autocomplete="off" placeholder="Your message" class="form-contact__input-textarea"></textarea>
+							</div>
+							<div class="form-contact__line">
+								<div class="form-contact__checkbox checkbox">
+                           <input id="consent" required type="checkbox" value="yes" name="checkbox" class="checkbox__input" >
+									<label class="checkbox__label" for="consent"><span>I agree to receive communications from Createx Online School</span> </label>
+								</div>
+							</div>
+							<div class="form-contact__line">
+								<button class="form-contact__button button">Send message</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+		
+	   </main>
+	   <footer></footer>
+	</div>
+	
+	
+</body>
+</html>
